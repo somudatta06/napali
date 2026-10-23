@@ -8,7 +8,7 @@ JavaScript, in a single self-contained `index.html`.
 
 ![Four frames from the flight](media/overview.jpg)
 
-Built with Claude Code (Claude Opus 5.5) over 13 rounds of agent work, most of them with parallel specialists for water,
+Built over 13 rounds of agent work, most of them with parallel specialists for water,
 sky, terrain and vegetation, a merge step, and a judge that compared each round against a set of reference photos of the
 coast.
 
@@ -79,14 +79,6 @@ node tools/rebuild.cjs
 | `v2_coast.txt`, `v2_coastsdf.txt`, `v2_build.txt` | coastline polygon and terrain build data |
 
 Most look parameters are exposed as URL knobs (see `num('...')` calls in the page), so they can be tuned without a rebuild.
-
-## Credits
-
-- Code: Leon Lin ([@LexnLin](https://x.com/LexnLin)), built with [Claude Code](https://claude.com/claude-code).
-- The music in the published video is "Heroic Age" by Kevin MacLeod ([incompetech.com](https://incompetech.com)),
-  licensed under [Creative Commons: By Attribution 4.0](http://creativecommons.org/licenses/by/4.0/). It is not part of
-  this repository.
-- The reference photos used to judge the renders are not included.
 
 ## License
 
